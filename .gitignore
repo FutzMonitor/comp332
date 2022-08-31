@@ -1,1 +1,7 @@
 /bin/
+
+# Ignore Class Paths 
+.classpath
+
+# Ignore Projects 
+.prokect
