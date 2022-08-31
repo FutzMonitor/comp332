@@ -1,7 +1,7 @@
 package week1;
 
 /**
- * Implementation of the Sieve(n) Algorithm 
+ * Implementation of the Sieve(n) Algorithm.
  * @author Christian Gonzalez
  *
  */
@@ -9,9 +9,9 @@ public class sieve {
 
 	/**
 	 * Uses Sieve of Eratosthenes's algorithm to create a list
-	 * of primes up to a number greater greater than one
-	 * @param m - an integer greatert than one
-	 * @prints - all primes inside of the list
+	 * of primes up to a number greater greater than one.
+	 * @param m - an integer greatert than one.
+	 * @prints - all primes inside of the list.
 	 */
 	public static void sievePrimes(int m){
 		// Create an array with the size of m
@@ -22,7 +22,7 @@ public class sieve {
 			isPrime[i] = true;
 		}
 		
-		// Remove numbers that are divisible by i
+		// Remove numbers that are divisible by i.
 		for (int i = 2; i < Math.sqrt(m); i++) {
 			if(isPrime[i] == true) {
 				for(int j = (i * i); j < m; j = j + i) {

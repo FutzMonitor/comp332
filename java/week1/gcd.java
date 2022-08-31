@@ -1,7 +1,7 @@
 package week1;
 
 /**
- * Finds the greatest common factor using to algorithms illustrated in class
+ * Finds the greatest common factor using to algorithms illustrated in class.
  * @author Christian Gonzalez
  *
  */
@@ -9,10 +9,10 @@ public class gcd {
 
 
 	/**
-	 * Returns the greatest common factor using the Euclidean algorithm using recursion
-	 * @param m - the first nonnegative, nonzero integer
-	 * @param n - the second nonnegative, nonzero integer
-	 * @return - the gcd of the two inputs
+	 * Returns the greatest common factor using the Euclidean algorithm using recursion.
+	 * @param m - the first nonnegative, nonzero integer.
+	 * @param n - the second nonnegative, nonzero integer.
+	 * @return - the gcd of the two inputs.
 	 */
 	public static int euclidGCD(int m, int n) {
 		// For debugging purposes
@@ -32,10 +32,10 @@ public class gcd {
 	}
 	
 	/**
-	 * Returns the greatest common factor using consecutive integer checking 
-	 * @param m - the first nonnegative, nonzero integer
-	 * @param n - the second nonnegative, nonzero integer
-	 * @return - the gcd of the two inputs
+	 * Returns the greatest common factor using consecutive integer checking .
+	 * @param m - the first nonnegative, nonzero integer.
+	 * @param n - the second nonnegative, nonzero integer.
+	 * @return - the gcd of the two inputs.
 	 */
 	public static int consecutiveIntGCD(int m, int n) {
 		int t;
@@ -58,7 +58,7 @@ public class gcd {
 				t--;
 			}
 		}
-		// Bad inputs
+		// Bad inputs.
 		return -1;
 	}
 
