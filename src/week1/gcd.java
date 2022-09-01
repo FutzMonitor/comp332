@@ -7,7 +7,6 @@ package week1;
  */
 public class gcd {
 
-
 	/**
 	 * Returns the greatest common factor using the Euclidean algorithm using recursion.
 	 * @param m - the first nonnegative, nonzero integer.
