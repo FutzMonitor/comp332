@@ -62,7 +62,7 @@ public class gcd {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("Euclid's Algorithm: " + euclidGCD(60, 24));
+		System.out.println("Euclid's Algorithm: " + euclidGCD(24, 60));
 		System.out.println("Consecutive Integer Algorithm: " + consecutiveIntGCD(60, 24));
 	}
 }
