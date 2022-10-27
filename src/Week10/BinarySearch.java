@@ -30,12 +30,12 @@ public class BinarySearch {
 			else if(k < input[m1]) {
 				r = m1 - 1;
 			}
-			else if(k > input[m1]) {
-				l = m1 + 1;
+			else if(k > input[m2]) {
+				l = m2 + 1;
 			}
 			else {
 				l = m1 + 1;
-				r = m1 - 1;
+				r = m2 - 1;
 			}
 		} while(l <= r);
 		// Not in the list
