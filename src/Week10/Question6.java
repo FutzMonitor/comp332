@@ -20,7 +20,7 @@ public class Question6 {
 		int l = 0, r = input.length - 1;
 
 		if(input[0] != 1) {
-			return l + 1;
+			return 1;
 		}
 		if(input[input.length - 1] != input.length + 1) {
 			return input.length + 1;
