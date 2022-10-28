@@ -30,18 +30,18 @@ public class BinarySearch {
 			else if(k < input[m1]) {
 				r = m1 - 1;
 			}
-			else if(k > input[m1]) {
-				l = m1 + 1;
+			else if(k > input[m2]) {
+				l = m2 + 1;
 			}
 			else {
 				l = m1 + 1;
-				r = m1 - 1;
+				r = m2 - 1;
 			}
 		} while(l <= r);
 		// Not in the list
 		return -1;	
 	}
-	
+
 	/**
 	 * Decrease-and-conquer function to return a searched key 
 	 * by dividing an array into two parts
@@ -66,8 +66,8 @@ public class BinarySearch {
 		} while(l <= r);
 		return -1;	
 	}
-	
-	
+
+
 	public static void main(String[] args) {
 		int[] a = {10, 20, 30 , 40 ,50, 60, 70, 80, 90};
 		System.out.println("Searching location of 60 using BinarySearch: " + binarySearch(a, 60));
