@@ -1,4 +1,4 @@
-package week4;
+package week04;
 
 /**
  * Implementation of the Q Algorithm for question 5 of homework 3

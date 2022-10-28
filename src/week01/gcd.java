@@ -1,4 +1,4 @@
-package week1;
+package week01;
 
 /**
  * Finds the greatest common factor using to algorithms illustrated in class.

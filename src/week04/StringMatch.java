@@ -1,4 +1,4 @@
-package week4;
+package week04;
 
 /**
  * An implementation of the brute force String comparison algorithm from the notes

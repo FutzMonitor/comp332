@@ -1,4 +1,4 @@
-package week5;
+package week05;
 /**
  * Class that implements various divide and conquer algorithms mentioned in class
  * @author Christian Gonzalez
