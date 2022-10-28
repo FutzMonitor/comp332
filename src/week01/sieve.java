@@ -1,4 +1,4 @@
-package week1;
+package week01;
 
 /**
  * Implementation of the Sieve(n) Algorithm.

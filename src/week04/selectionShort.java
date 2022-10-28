@@ -1,4 +1,4 @@
-package week4;
+package week04;
 
 /**
  * Implementation of the Selection Sorting Algorithm mentioned in class

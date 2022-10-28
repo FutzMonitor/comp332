@@ -1,4 +1,4 @@
-package week7;
+package week07;
 
 /**
  * Implementation of a divide-and-conquer element that finds the largest element in an array
