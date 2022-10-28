@@ -1,4 +1,4 @@
-package Week10;
+package week10;
 
 /**
  * Implementation of Insertion Sort

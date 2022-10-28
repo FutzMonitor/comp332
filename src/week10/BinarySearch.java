@@ -1,4 +1,4 @@
-package Week10;
+package week10;
 
 /**
  * This class implements binary search. Additionally this class

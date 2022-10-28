@@ -1,4 +1,4 @@
-package Week9;
+package week9;
 
 import java.time.Duration;
 import java.time.Instant;
