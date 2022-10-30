@@ -76,6 +76,8 @@ public class QuickSelect {
 	}
 
 	public static void main(String[] args) {
+		// Inserting comment via GitHub site
+		// Ignore this class for now, it isn't working as intended.
 		int[] ex = {9, 7, 12, 8, 10, 15};
 
 		// Initial Call quickSelect(A, k, 0, A.length - 1)
