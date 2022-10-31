@@ -19,8 +19,9 @@ public class BinarySearch {
 		int l = 0;
 		int r = input.length - 1;
 		do {
-			int m1 = (l+r)/3;
-			int m2 = 2 * (l+r)/3;
+            int m1 = l + (r - l) / 3;
+            int m2 = r - (r - l) / 3;
+			//System.out.println("l: " + l + " || r: " + r + "\nmidpoint 1: " + m1 + " || midpoint 2: " + m2);
 			if(input[m1] == k) {
 				return m1;
 			}
@@ -69,8 +70,13 @@ public class BinarySearch {
 
 
 	public static void main(String[] args) {
-		int[] a = {10, 20, 30 , 40 ,50, 60, 70, 80, 90};
+		int[] a = {10, 20, 30 , 40 , 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150};
 		System.out.println("Searching location of 60 using BinarySearch: " + binarySearch(a, 60));
-		System.out.println("Searching location of 50 using TrenarySearch: " + ternarySearch(a, 50));
-	}
+		
+		// More absolute coverage
+		for(int i = 0 ; i < a.length; i++) {
+			System.out.println("Searching location of " +  a[i] +" using TrenarySearch: " + ternarySearch(a, a[i]));
+		}
+			
+		}
 }
