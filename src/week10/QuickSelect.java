@@ -1,5 +1,7 @@
 package week10;
 
+import java.util.Arrays;
+
 /**
  * Implementation of the QuickSelect algorithm using pseudocode provided 
  * in class
@@ -31,8 +33,8 @@ public class QuickSelect {
 				j--;
 			} while (A[j] > pivot);
 
-			if (i >= j) {;
-				return j;
+			if (i >= j) {
+			return j;
 			}
 			swap(A, i, j);
 			swap(A, l, j);
@@ -51,6 +53,9 @@ public class QuickSelect {
 	 */
 	public static int quickSelect(int[] A, int k, int l, int r) {
 		int s = HoaresPartition(A, l, r);
+		System.out.println("This is the value of s: " + s + " || This is the value of l: " + l + " || This is the value of r: " + r);;
+		printArr(A, l, r);
+		System.out.println();
 		if(s == k - 1) {
 			return A[s];
 		}
@@ -75,11 +80,19 @@ public class QuickSelect {
 		A[indOne] = temp;
 	}
 
+	public static void printArr(int[] A, int l, int r) {
+		for(int i = l; i < r + 1; i++) {
+			System.out.print(A[i] + ", ");
+		}
+	}
+
 	public static void main(String[] args) {
-		int[] ex = {9, 7, 12, 8, 10, 15};
+		int[] ex = {4, 1, 10, 9, 7, 12, 8, 2, 15};
+		int[] hw6 = {9, 12, 5, 17, 20, 2};
 
 		// Initial Call quickSelect(A, k, 0, A.length - 1)
-		System.out.println("The 5th smallest k is: " + quickSelect(ex, 4, 0, ex.length - 1));
+		System.out.println("The 5th smallest k is: " + quickSelect(ex, 5, 0, ex.length - 1));
+		System.out.println("The 3rd smallest k is: " + quickSelect(hw6, 4, 0, hw6.length - 1));
 
 	}
 }
