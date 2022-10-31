@@ -87,8 +87,9 @@ public class QuickSelect {
 	}
 
 	public static void main(String[] args) {
-		int[] ex = {4, 1, 10, 9, 7, 12, 8, 2, 15};
-		int[] hw6 = {9, 12, 5, 17, 20, 2};
+		// Inserting comment via GitHub site
+		// Ignore this class for now, it isn't working as intended.
+		int[] ex = {9, 7, 12, 8, 10, 15};
 
 		// Initial Call quickSelect(A, k, 0, A.length - 1)
 		System.out.println("The 5th smallest k is: " + quickSelect(ex, 5, 0, ex.length - 1));
