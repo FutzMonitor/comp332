@@ -5,6 +5,6 @@ As the description for the repo states, this is a repository that contains examp
 The implementations are primarily done in Java. If you would like to contribute in another language, or even include another implementation of an algorithm, feel free to fork this repo and make a PR to this repo. 
 
 # Contact
-If you have any questions or concerns I can be reached at these handles:  
+If you have any questions or concerns I can be reached at:  
 <br>Outlook: gonzalec@dickinson.edu
 <br>Discord: Futz#0002
