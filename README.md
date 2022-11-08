@@ -8,3 +8,7 @@ The implementations are primarily done in Java. If you would like to contribute 
 If you have any questions or concerns I can be reached at:  
 <br>Outlook: gonzalec@dickinson.edu
 <br>Discord: Futz#0002
+
+![image](https://user-images.githubusercontent.com/31524934/200632144-4bb8bc86-bcf3-4ab5-a16f-8846b319b866.png)
+
+
