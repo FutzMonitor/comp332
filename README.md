@@ -9,4 +9,6 @@ If you have any questions or concerns I can be reached at:
 <br>Outlook: gonzalec@dickinson.edu
 <br>Discord: Futz#0002
 
+![image](https://user-images.githubusercontent.com/31524934/201442581-fe9a6d3b-a5a9-4a0a-aa76-0ea715e83f34.png)
+
 
